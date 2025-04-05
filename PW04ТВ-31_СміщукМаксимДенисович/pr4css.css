@@ -1,0 +1,18 @@
+.rows{
+    display: flex;
+    align-items: start;
+    gap: 10px;
+    margin-bottom: 5px;
+    flex-direction: column;
+}
+input{
+    padding: 10px;
+    margin-bottom: 5px;
+}
+button{
+    padding: 10px;
+    margin-bottom: 5px;
+}
+.answers{
+    margin-bottom: 5px;
+}
