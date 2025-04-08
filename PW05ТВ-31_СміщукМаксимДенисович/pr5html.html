@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="pr5css.css">
+</head>
+<body>
+    <div class = "rows">
+        <label>ПЛ</label>
+        <select id="dbPL">
+            <option value="0.007;10">ПЛ-110 кВ</option>
+            <option value="0.02;8">ПЛ-35 кВ</option>
+            <option value="0.02;10">ПЛ-10 кВ</option>
+        </select>
+    </div>
+    <div class = "rows">
+        <label>Довжина</label><input type = "number" id = "length"></input>
+    </div>
+    <div class = "rows">
+        <label>Трансформатор</label>
+        <select id="dbTransformator">
+            <option value="0.015;100">Т-110 кВ</option>
+            <option value="0.02;80">Т-35 кВ</option>
+            <option value="0.005;60">Т-10(кабельна мережа) кВ</option>
+            <option value="0.05;60">Т-10(повітряна мережа) кВ</option>
+        </select>
+    </div>
+    <div class = "rows">
+        <label>ввідний вимикач</label>
+        <select id="dbTurnOff">
+            <option value="0.02;15">В-10 кВ(малооливний)</option>
+            <option value="0.01;15">В-10 кВ(вакуумний)</option>
+        </select>
+    </div>
+    <div class = "rows">
+        <label>Кількість приєднань</label><input type = "number" id = "countJoin"></input>
+    </div>
+    <button id="btn1">Отримати відповідь для завадання 1</button>
+    <div class = "rows">
+        <label>Зпер.а</label><input type = "number" id = "zPerA"></input>
+    </div>
+    <div class = "rows">
+        <label>Зпер.п</label><input type = "number" id = "zPerP"></input>
+    </div>
+    <button id="btn2">Отримати відповідь для завадання 2</button>
+    <div class="answers">
+        <label id="answer1.1"></label><br>
+        <label id="answer1.2"></label><br>
+        <label id="answer1.3"></label><br>
+        <label id="answer1.4"></label><br>
+        <label id="answer1.5"></label><br>
+        <label id="answer1.6"></label><br>
+    </div>
+    <script src = "pr5js.js"></script>
+</body>
+</html>
